@@ -1,0 +1,500 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>MTA-0036 - Biomol e técnicas genômicas</title>
+    <meta charset="utf-8">
+    <style>
+        @import url(https://fonts.googleapis.com/css?family=Ubuntu+Mono:400,700,400italic);
+        @import url(https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700);
+        @import url(https://fonts.googleapis.com/css?family=Roboto+Slab:300,300i,400,400i,700);
+        @import url(https://fonts.googleapis.com/css?family=Raleway:300,300i,400,400i,700);
+        /* font/size formatting */
+        
+        body {
+            font-family: 'Raleway', sans-serif;
+            font-weight: 300;
+            color: #000000;
+        }
+        
+        h1 {
+            font-family: 'Roboto Slab', sans-serif;
+            color: #7570b3;
+            font-weight: 400;
+            font-size: 40px;
+        }
+        
+        h2 {
+            font-family: 'Roboto Slab', sans-serif;
+            font-weight: 400;
+            font-size: 30px;
+            color: #7570b3;
+        }
+        
+        h3 {
+            font-family: 'Raleway', sans-serif;
+            color: #7570b3;
+        }
+        
+        .huge {
+            font-size: 160%
+        }
+        
+        .large {
+            font-size: 130%
+        }
+        
+        .small {
+            font-size: 70%
+        }
+        
+        .tiny {
+            font-size: 40%
+        }
+        
+        blockquote {
+            border-left: 0.3em solid #ccc;
+            padding: 0 15px;
+            font-style: italic;
+            color: #777;
+            quotes: "\201C""\201D""\2018""\2019";
+            font-size: 18px;
+        }
+        
+        .remark-code,
+        .remark-inline-code {
+            font-family: 'Ubuntu Mono';
+            color: grey;
+        }
+        
+        .left-column {
+            width: 49%;
+            float: left;
+        }
+        
+        .right-column {
+            width: 49%;
+            float: right;
+        }
+        
+        .left-column-33 {
+            width: 33%;
+            float: left;
+        }
+        
+        .right-column-66 {
+            width: 66%;
+            float: right;
+        }
+        
+        .left-column-66 {
+            width: 66%;
+            float: left;
+        }
+        
+        .right-column-33 {
+            width: 33%;
+            float: right;
+        }
+        
+        .right-column~p {
+            clear: both;
+        }
+        
+        .right-column~ul {
+            clear: both;
+        }
+        
+        .vertical-center {
+            margin: 0;
+            position: absolute;
+            top: 50%;
+            -ms-transform: translateY(-50%);
+            transform: translateY(-50%);
+        }
+        
+        .vertical-center-with-title {
+            margin: 0;
+            position: absolute;
+            top: 60%;
+            -ms-transform: translateY(-50%);
+            transform: translateY(-50%);
+        }
+        
+        .remark-slide-number {
+            position: inherit;
+        }
+        
+        .remark-slide-number .progress-bar-container {
+            position: absolute;
+            bottom: 0;
+            height: 4px;
+            display: block;
+            left: 0;
+            right: 0;
+        }
+        
+        .remark-slide-number .progress-bar {
+            height: 100%;
+            background-color: #6a3d9a;
+        }
+        
+        div.my-header {
+            background-color: #7570b3;
+            position: fixed;
+            top: 0px;
+            left: 0px;
+            height: 10px;
+            width: 100%;
+            text-align: left;
+        }
+        
+        div.my-footer img {
+            height: 75px;
+            width: 75px;
+            bottom: 5px;
+            right: 5px;
+            position: fixed;
+        }
+        
+        .remark-slide-content {
+            font-size: 20px;
+        }
+        
+        #controls {
+            position: fixed;
+            top: 10px;
+            right: 10px;
+            background: white;
+            padding: 10px;
+            border: 1px solid #ccc;
+            z-index: 1000;
+        }
+        
+        #counters {
+            margin-top: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <textarea id="source" style="display:none;">
+
+layout: true
+<div class="my-header"></div>
+<div class="my-footer"></div>
+
+---
+
+class: center, middle
+
+# MTA-0036 - biologia molecular e técnicas genômicas
+
+Responsáveis: <br>
+
+Profa. Milena Teles <br>
+Profa. Raquel Montenegro <br>
+Prof. Allysson Allan <br>
+<br>
+Programa de Pós-Graduação em Medicina Translacional <br>
+Universidade Federal do Ceará <br>
+10/2024
+
+---
+
+## Aula 17/10/2024
+
+Conceitos Básicos de Biologia Molecular
+
+---
+
+## Conceitos básicos I
+
+<br>
+<br>
+<br>
+
+|             1                       |                          |                                          |
+|--------------------------------------------------|-------------------------------------------------------------------------------|--------------------------------------------------------------------------------|
+| O que é um Gene?                             | Um segmento de DNA ou RNA que produz produtos funcionais, sejam proteínas ou RNAs funcionais. | Uma seção do DNA que codifica informações, incluindo genes responsáveis por traços e várias doenças. |
+
+---
+
+<br>
+<br>
+<br>
+
+|              2                      |                          |                                          |
+|--------------------------------------------------|-------------------------------------------------------------------------------|--------------------------------------------------------------------------------|
+| O que é DNA?                                 | O DNA é o material hereditário, composto por bases nucleotídicas (A, T, G, C), armazenando informações genéticas para todos os processos celulares. | Descrito como uma molécula de armazenamento de informações genéticas composta por bases A, T, G e C em uma estrutura de dupla hélice. |
+
+<br>
+<br>
+<br>
+
+---
+
+<br>
+<br>
+<br>
+
+|               3                     |                          |                                          |
+|--------------------------------------------------|-------------------------------------------------------------------------------|--------------------------------------------------------------------------------|
+| O que são nucleotídeos?                          | Unidades básicas de DNA e RNA, compostas por uma base nitrogenada, um açúcar (desoxirribose no DNA e ribose no RNA), e um grupo fosfato. | Os blocos de construção do DNA, formados por uma base (A, T, G, C), um açúcar e um fosfato. |
+<br>
+<br>
+<br>
+
+---
+
+<br>
+<br>
+<br>
+
+|               4                     |                          |                                          |
+|--------------------------------------------------|-------------------------------------------------------------------------------|--------------------------------------------------------------------------------|
+| Como se dá a replicação?                     | O DNA é replicado de maneira semi-conservativa, onde cada fita serve de molde para uma nova fita complementar. | A replicação do DNA ocorre copiando cada uma das fitas em uma nova molécula de DNA, utilizando enzimas como a DNA polimerase. |
+
+<br>
+<br>
+<br>
+
+---
+
+<br>
+<br>
+<br>
+<br>
+
+|              5                     |                          |                                          |
+|--------------------------------------------------|-------------------------------------------------------------------------------|--------------------------------------------------------------------------------|
+| Qual é o dogma central da biologia molecular? | O fluxo de informação genética segue do DNA para o RNA (transcrição) e do RNA para as proteínas (tradução). | O dogma central define o processo em que o DNA é transcrito em RNA, e o RNA é traduzido em proteínas. |
+
+<br>
+<br>
+<br>
+<br>
+
+---
+
+<br>
+<br>
+<br>
+<br>
+
+|               6                     |                          |                                          |
+|--------------------------------------------------|-------------------------------------------------------------------------------|--------------------------------------------------------------------------------|
+| Como ocorre a transcrição? | A transcrição é o processo de copiar a sequência de DNA para uma molécula de RNA mensageiro (mRNA). | O DNA é transcrito em RNA usando a RNA polimerase, que lê a sequência de DNA para produzir uma fita complementar de RNA. |
+
+<br>
+<br>
+<br>
+<br>
+<br>
+
+---
+
+<br>
+<br>
+<br>
+<br>
+
+|               7                     |                          |                                          |
+|--------------------------------------------------|-------------------------------------------------------------------------------|--------------------------------------------------------------------------------|
+| Qual é o papel do RNA mensageiro (mRNA)?     | O mRNA transporta a informação genética do DNA no núcleo para o citoplasma, onde é traduzido em proteínas. | O mRNA é o intermediário entre o DNA e a síntese de proteínas, carregando as instruções para a produção proteica. |
+
+<br>
+<br>
+<br>
+
+---
+
+<br>
+<br>
+<br>
+<br>
+
+|               8                     |                          |                                          |
+|--------------------------------------------------|-------------------------------------------------------------------------------|--------------------------------------------------------------------------------|
+| Como a tradução converte RNA em proteína?    | A tradução é o processo pelo qual o RNA mensageiro (mRNA) é decodificado pelos ribossomos para produzir uma cadeia polipeptídica que será dobrada em uma proteína funcional. | O RNA mensageiro carrega a sequência codificada que os ribossomos traduzem em uma sequência de aminoácidos, formando uma proteína. |
+
+<br>
+<br>
+<br>
+<br>
+
+---
+
+<br>
+<br>
+<br>
+<br>
+
+|               9                     |                          |                                          |
+|--------------------------------------------------|-------------------------------------------------------------------------------|--------------------------------------------------------------------------------|
+| Qual é o papel dos ribossomos na tradução?   | Os ribossomos são responsáveis por ligar o mRNA e facilitar a ligação dos aminoácidos trazidos pelo tRNA, formando a cadeia polipeptídica. | O ribossomo serve como plataforma onde a tradução ocorre, decodificando o mRNA e catalisando a formação de ligações peptídicas entre aminoácidos. |
+
+<br>
+<br>
+<br>
+<br>
+
+---
+
+<br>
+<br>
+<br>
+<br>
+
+
+|               10                     |                          |                                          |
+|--------------------------------------------------|-------------------------------------------------------------------------------|--------------------------------------------------------------------------------|
+| Como o RNA transportador (tRNA) contribui para a tradução? | O tRNA transporta aminoácidos específicos para o ribossomo, onde seus anticódons se emparelham com os códons do mRNA, assegurando que os aminoácidos corretos sejam adicionados à cadeia polipeptídica. | O tRNA atua como o "tradutor" que associa o códon de mRNA ao aminoácido correspondente, essencial para a síntese correta da proteína. |
+
+<br>
+<br>
+<br>
+<br>
+
+---
+
+<br>
+<br>
+<br>
+<br>
+
+|               11                     |                          |                                          |
+|--------------------------------------------------|-------------------------------------------------------------------------------|--------------------------------------------------------------------------------|
+| O que são códons e como eles representam a linguagem das proteínas? | Códons são sequências de três nucleotídeos no mRNA que especificam quais aminoácidos serão adicionados à cadeia polipeptídica durante a tradução. | Cada códon no mRNA corresponde a um aminoácido ou sinal de parada durante a síntese proteica, formando a base da "linguagem" genética. |
+
+<br>
+<br>
+<br>
+<br>
+
+---
+
+<br>
+<br>
+<br>
+<br>
+
+|               12                     |                          |                                          |
+|--------------------------------------------------|-------------------------------------------------------------------------------|--------------------------------------------------------------------------------|
+| Qual é a estrutura e função das proteínas?   | As proteínas são compostas por cadeias de aminoácidos que se dobram em estruturas tridimensionais, desempenhando funções catalíticas, estruturais e regulatórias nas células. | Proteínas são moléculas complexas que realizam a maioria das funções celulares, variando desde catalisadores (enzimas) até componentes estruturais e mensageiros. |
+
+<br>
+<br>
+<br>
+<br>
+
+---
+
+<br>
+<br>
+<br>
+<br>
+
+|               13                     |                          |                                          |
+|--------------------------------------------------|-------------------------------------------------------------------------------|--------------------------------------------------------------------------------|
+| O que é uma visão geral da expressão gênica? | A expressão gênica envolve a transcrição do DNA em RNA e a subsequente tradução do RNA em proteínas, que executam funções celulares. | A expressão gênica é o processo pelo qual a informação contida no DNA é utilizada para produzir proteínas ou RNA funcionais, controlando a atividade celular. |
+
+<br>
+<br>
+<br>
+<br>
+<br>
+
+---
+
+<br>
+<br>
+<br>
+<br>
+
+|               14                     |                          |                                          |
+|--------------------------------------------------|-------------------------------------------------------------------------------|--------------------------------------------------------------------------------|
+| Como a regulação gênica é diferente em procariontes e eucariontes? | Em procariontes, a regulação gênica ocorre frequentemente durante a transcrição, enquanto em eucariontes há níveis adicionais de controle, incluindo modificações epigenéticas, processamento de RNA e controle da tradução. | A regulação gênica em procariontes é simples e frequentemente ocorre por repressão ou ativação direta da transcrição, enquanto em eucariontes envolve múltiplos níveis de controle, incluindo epigenética e processamento pós-transcricional. |
+
+<br>
+<br>
+<br>
+<br>
+
+---
+
+<br>
+<br>
+<br>
+<br>
+
+|               15                     |                          |                                          |
+|--------------------------------------------------|-------------------------------------------------------------------------------|--------------------------------------------------------------------------------|
+| O que é epigenética e como ela vai além do código do DNA? | Epigenética refere-se a modificações hereditárias na expressão gênica que não envolvem alterações na sequência de DNA, como metilação do DNA e modificações de histonas. | Epigenética envolve mecanismos, como metilação do DNA e modificações de histonas, que regulam a expressão gênica sem alterar a sequência do DNA, afetando o fenótipo. |
+
+<br>
+<br>
+<br>
+<br>
+
+---
+
+<br>
+<br>
+<br>
+<br>
+
+|               16                     |                          |                                          |
+|--------------------------------------------------|-------------------------------------------------------------------------------|--------------------------------------------------------------------------------|
+| Como as histonas participam no empacotamento do DNA? | As histonas são proteínas em torno das quais o DNA se enrola, formando nucleossomos que organizam o DNA em estruturas compactas dentro do núcleo. | As histonas ajudam a compactar o DNA em cromossomos ao enrolar a fita de DNA em torno de suas superfícies, facilitando o empacotamento no núcleo celular. |
+
+---
+
+<br>
+<br>
+<br>
+<br>
+
+|               17                     |                          |                                          |
+|--------------------------------------------------|-------------------------------------------------------------------------------|--------------------------------------------------------------------------------|
+| Como a estrutura da cromatina está relacionada à sua função? | A cromatina pode ser compactada ou relaxada, influenciando a acessibilidade do DNA para a transcrição e, portanto, regulando a expressão gênica. | A cromatina regula o acesso aos genes; quando compactada (heterocromatina), a transcrição é reduzida, enquanto a cromatina relaxada (eucromatina) permite a expressão gênica. |
+
+<br>
+<br>
+<br>
+<br>
+
+---
+
+<br>
+<br>
+<br>
+<br>
+
+|               18                     |                          |                                          |
+|--------------------------------------------------|-------------------------------------------------------------------------------|--------------------------------------------------------------------------------|
+| Como o DNA é organizado em cromossomos?    | O DNA é organizado em cromossomos por meio de nucleossomos formados por DNA enrolado em histonas, que são então organizados em estruturas maiores para formar os cromossomos. | O DNA é compactado em cromossomos, que consistem em longas cadeias de DNA enroladas em proteínas histonas e organizadas em uma estrutura altamente compacta dentro do núcleo. |
+
+---
+
+<br>
+<br>
+<br>
+<br>
+
+    </textarea>
+
+    <script src="https://remarkjs.com/downloads/remark-latest.min.js"></script>
+    <script>
+        var slideshow = remark.create({
+            ratio: '16:9',
+            slideNumberFormat: (current, total) => `
+          <div class="progress-bar-container">
+            <div class="progress-bar" style="width: ${current/total*100}%"></div>
+          </div>
+        `
+        });
+    </script>
+</body>
+
+</html>
